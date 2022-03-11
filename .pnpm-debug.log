@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot parse the \"//\" selector in the overrides",
+      "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+      "stack": "pnpm: Cannot parse the \"//\" selector in the overrides\n    at parsePkgSelector (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:118783:15)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:118775:22\n    at Array.map (<anonymous>)\n    at parseOverrides (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:118761:40)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:118807:152)\n    at createReadPackageHook (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:119852:58)\n    at mutateModules (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:119598:32)\n    at async install (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:119574:24)\n    at async handler (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:121951:31)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182170:21"
+    }
+  }
+}
